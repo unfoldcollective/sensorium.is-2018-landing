@@ -6,7 +6,8 @@ $light-green:    #9CFCCF;
 $sensorium-gray: #CDCCCB;
 */
 html, body {
-    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased;
 }
 .info {
     pointer-events:none;
@@ -14,14 +15,17 @@ html, body {
 .info a {
     pointer-events: all;
 }
+.regular {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.semi-bold {
+    font-family: "Montserrat-SemiBold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
 .light {
     font-family: "Montserrat-Light", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 .extra-light {
     font-family: "Montserrat-ExtraLight", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-}
-.semi-bold {
-    font-family: "Montserrat-SemiBold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
 a {
