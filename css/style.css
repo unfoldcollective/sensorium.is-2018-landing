@@ -9,10 +9,13 @@ html, body {
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-font-smoothing: antialiased;
 }
-.info {
+.penone {
     pointer-events:none;
 }
-.info a {
+.peall {
+    pointer-events:all;
+}
+a {
     pointer-events: all;
 }
 .regular {
