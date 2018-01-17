@@ -8,6 +8,7 @@ $sensorium-gray: #CDCCCB;
 html, body {
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-font-smoothing: antialiased;
+    background: #000;
 }
 .penone {
     pointer-events:none;
